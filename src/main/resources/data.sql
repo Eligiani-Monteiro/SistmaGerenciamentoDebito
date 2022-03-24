@@ -5,8 +5,29 @@ VALUES ('Eligiani', '0909866728', '(67) 99999-8888', 'ligiani@gmail.com'),
 INSERT INTO tb_produto (nome, descricao, valor, cardapio) 
 VALUES ('refrigerante','sprit', 20, 'BEBIDA'),('x salada','pao amburguer', 17.50, 'LANCHE'),('porcao calabresa','calabresa batata', 25.50, 'PORCAO'),('pizza','estrogonofe frango', 34.50, 'LANCHE'),('suco','laranja', 10.50, 'BEBIDA');
 
-INSERT INTO tb_consumo (dataConsumo, id_cliente_fk)
-VALUES ('01-23-2022', 1),('06-03-2021', 2),('08-04-2021', 1),('07-09-2020', 2),('12-02-2021', 1),('04-20-2021', 2),('12-17-2021', 1),('11-14-2020', 2),('05-14-2021', 1),('01-28-2019', 2);
+INSERT INTO tb_consumo (data_Consumo, id_cliente_fk)
+VALUES ('2022-01-23', 1),
+	   ('2021-06-03', 2),
+	   ('2021-08-04', 1),
+	   ('2020-07-09', 2),
+	   ('2021-12-02', 1),
+	   ('2021-04-20', 2),
+	   ('2021-12-17', 1),
+	   ('2020-11-14', 2),
+	   ('2021-05-14', 1),
+	   ('2019-01-28', 2);
+ 
+INSERT INTO tb_consumo_produto(consumo_id,produto_id)
+VALUES(1,1), (2,2), (3,3), (4,4),(5,5), (6,1), (7,2), (8,3), (9,4), (10,5);
+	 
+	 
+	 
+	  
+	 
+	  
+	 
+	  
+	  
 
 
 

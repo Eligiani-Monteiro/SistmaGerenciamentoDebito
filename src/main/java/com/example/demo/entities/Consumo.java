@@ -25,7 +25,7 @@ public class Consumo implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long Id;
-	@Column(columnDefinition = "TIMETAMP WITHOUT TIME ZONE")
+	@Column(name = "data_consumo")
 	private Date dataConsumo;
 	
 	@ManyToOne
